@@ -1,5 +1,5 @@
 def alphabetize(arr)
   # code here
   
-  arr.sort.collect
+  arr.sort
 end
