@@ -2,10 +2,11 @@ ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
 
 def alphabetize(arr)
   # code here
-#  esp_array = ESPERANTO_ALPHABET.to_a
- # arr.each do |x|
-  #  word_break = x.to_a
-   # if 
+  esp_array = ESPERANTO_ALPHABET.to_a
+  arr.each do |word|
+    alph_array = word.split("")
+    alph_array.each |char|
+      if alph_array[0] == esp_array[0]
 end
 
 #arr.sort_by do |word|
