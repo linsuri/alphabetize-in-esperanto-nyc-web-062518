@@ -8,4 +8,7 @@ def alphabetize(arr)
     if 
 end
 
-arr.sort_by { |a| a.split("").map{ |char| ESPERANTO_ALPHABET.index(char) } }
+arr.sort_by do |word|
+  word_split = word.split("")
+  word_split.each do |char| 
+    ESPERANTO_ALPHABET.index(char)
