@@ -12,3 +12,4 @@ arr.sort_by do |word|
   word_split = word.split("")
   word_split.each do |char| 
     ESPERANTO_ALPHABET.index(char)
+    # return index in ESPERANTO_ALPHABET corresponding to char
